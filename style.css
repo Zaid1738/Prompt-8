@@ -1,0 +1,143 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right,#217f76  , #b487c2);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.main > .container{
+    width: 70vw;
+    height: 80vh;
+    background-color:rgb(18, 7, 7);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container > .upper{
+    /* background-color: blue; */
+    padding: 30px 30px;
+    height: 50%;
+}
+.container > .upper h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 40px;
+    color: white;
+}
+.container > .upper p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.container > .lower{
+    height: 50%;
+    /* background-color: forestgreen; */
+    padding: 5px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container > .lower > .box1{
+    width: 350px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background:linear-gradient(to right , rgb(252, 142, 160) ,rgb(255, 196, 0));
+}
+.container > .lower > .box1 .left{
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: end;
+}
+.container > .lower > .box1 .left img{
+    width: 7vw;
+}
+
+
+.container > .lower > .box1 .right{
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.container > .lower > .box1 .right h1{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+
+
+.container > .lower > .box2{
+    width: 350px;
+    background:linear-gradient(to right ,rgb(219, 187, 81), rgb(187, 27, 53));    
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.container > .lower > .box2 .left{
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: end;
+}
+.container > .lower > .box2 .left img{
+    width: 7vw;
+}
+
+
+.container > .lower > .box2 .right{
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.container > .lower > .box2 .right h1{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+
+
+.container > .lower > .box3{
+    width: 350px;
+    background:linear-gradient(to right ,rgb(40, 68, 118), rgb(187, 27, 53));    
+
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.container > .lower > .box3 .left{
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: end;
+}
+.container > .lower > .box3 .left img{
+    width: 7vw;
+}
+
+
+.container > .lower > .box3 .right{
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.container > .lower > .box3 .right h1{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
